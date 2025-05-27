@@ -29,3 +29,14 @@ button{
 button:hover{
     background-color: #031c56;
 }
+
+@media(min-width:768px){
+    button{
+    padding: 3% 8% ;
+}
+p{
+    font-size: 0.9em;
+    font-family: "Forum", serif;
+    padding: 3% 5%;
+}
+}

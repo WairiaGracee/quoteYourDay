@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import NewQuote from './components/newQuote'
-import SavedQuote from './components/savedQuote'
 
 function App() {
   return (
@@ -10,9 +9,7 @@ function App() {
 
       <NewQuote />
 
-      <h2>★ Favorite Quotes ★</h2>
-      
-      <SavedQuote />
+
     </div>
   );
 }

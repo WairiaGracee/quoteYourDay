@@ -12,6 +12,16 @@
   margin-bottom: 10%;
 }
 
+
+@media(min-width:768px){
+  .App{
+    width:  600px;
+  }
+
+  .App h1{
+  margin-bottom: 6.5%;
+}
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
