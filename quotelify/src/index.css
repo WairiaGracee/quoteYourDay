@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgba(33, 92, 228,0.6),rgba(0, 41, 135,0.5)),url(../public/Assets/insung-yoon-rOeInlt5cW0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin:auto 0 ;
+
 }
